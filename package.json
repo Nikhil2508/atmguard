@@ -1,0 +1,31 @@
+{
+  "name": "atmguardtracking",
+  "version": "0.0.1",
+  "private": true,
+  "description": "New Swagger API Project",
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cron": "^1.3.0",
+    "crypto": "^1.0.1",
+    "express": "^4.12.3",
+    "jsonwebtoken": "^8.2.0",
+    "md5": "^2.2.1",
+    "mongoose": "^5.0.12",
+    "mongoose-unique-validator": "^2.0.0",
+    "sequelize": "^4.37.5",
+    "swagger": "^0.7.5",
+    "swagger-express-mw": "^0.1.0"
+  },
+  "devDependencies": {
+    "should": "^7.1.0",
+    "supertest": "^1.0.0"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "swagger project test"
+  }
+}
